@@ -1,0 +1,7 @@
+{
+  "desc": "duanglukui",
+  "rules": [{
+  "action": "allow",
+  "page": "*"
+  }]
+}

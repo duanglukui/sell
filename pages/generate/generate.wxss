@@ -1,0 +1,14 @@
+/* pages/generate/generate.wxss */
+.tl-price-input{
+  border:1rpx solid #ddd;
+  border-radius: 14rpx;
+  padding: 10rpx;
+}
+.banquan{
+  clear: both;
+  padding: 100rpx 0 80rpx 0;
+  text-align:center;
+  font-size: 14px;
+  color:#999;
+  font-family:Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,26 @@
+
+ <view class="container">
+  <canvas class="canvas-code"canvas-id="canvas1" style="background:#fff;width: 100px;height: 100px;"/>
+  
+  <canvas class="canvas-code"canvas-id="canvas2" style="background:#fff;width: 100px;height: 100px;"/>
+  <canvas class="canvas-code"canvas-id="canvas3" style="background:#fff;width: 100px;height: 100px;"/>
+  <canvas class="canvas-code"canvas-id="canvas4" style="background:#fff;width: 100px;height: 100px;"/>
+  <canvas class="canvas-code"canvas-id="canvas5" style="background:#fff;width: 100px;height: 100px;"/>
+   <form bindsubmit='generate'>
+      <view><text>请输入:产品编号 厂商码  </text></view>
+       <input type='text' name='content' class="tl-price-input"></input>
+       <button form-type='submit' class="g_button">生成</button>
+   
+   </form>
+  <view class="modal-button">
+     <button bindtap='savePic1' class="g_button">保存二维码1</button>
+     <button bindtap='savePic2' class="g_button">保存二维码2</button>
+     <button bindtap='savePic3' class="g_button">保存二维码3</button>
+     <button bindtap='savePic4' class="g_button">保存二维码4</button>
+     <button bindtap='savePic5' class="g_button">保存二维码5</button>
+    
+  </view>
+  <view class="banquan">
+    <text class="bq" bindtap="banquan">©例：输入生产编号为1321，则从上到下依次生成1321，1322，1323，1324，1325对应二维码</text>
+</view>
+ </view>
